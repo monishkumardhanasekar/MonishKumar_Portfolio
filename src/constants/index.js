@@ -1,7 +1,116 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+export const HERO_CONTENT = `I am a dedicated software engineer with a strong foundation in full stack development, skilled at crafting innovative and scalable solutions. My expertise encompasses languages like Python, C, and Java, along with frameworks and libraries such as Django, React, and Node.js. I am proficient in MySQL, PostgreSQL, and MongoDB, which enables me to manage both front-end and back-end development effectively.`;
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const ABOUT_TEXT = `I’m Monish Kumar Dhanasekar, a software engineer whose passion for technology ignited unexpectedly in the Electrical department. Immersed in circuits, I discovered a deeper fascination with coding—the force that brings machines to life. This passion led me to full stack development, where I craft innovative, scalable solutions with expertise in Python, C, Java, Django, React, Node.js, MySQL, PostgreSQL, and MongoDB. Beyond the screen, I’m an avid cricket and football player, drawing inspiration from my football idol, Ronaldo, to push my limits and strive for excellence in every endeavor. I also love exploring new places and cultures, believing each experience enriches my perspective and enhances my communication skills. Curious about my journey or eager to chat about tech, sports, or travel? Feel free to reach out through the contact section—I’m always excited to connect and share ideas! `;
+
+// export const EDUCATION_TIMELINE = [
+//     {
+//         date: 'May 2018 - May 2022',
+//         title: 'Bachelor of Engineering in Electrical and Electronics',
+//         subtitle: 'RMK College of Engineering and Technology',
+//         details: [
+//             'Object-Oriented Programming',
+//             'Embedded Systems',
+//             'Introduction to C Programming',
+//             'Introduction to Python Programming'
+//         ],
+//         iconStyle: { background: 'rgb(255, 182, 193)', color: '#fff' },
+//         contentStyle: { background: 'rgb(250, 182, 193)', color: '#000' },
+//     },
+//     {
+//         date: 'Expected May 2025',
+//         title: 'Master of Science in Computer Science',
+//         subtitle: 'Binghamton University, State University of New York',
+//         details: [
+//             'Introduction to Machine Learning (ML)',
+//             'Design Patterns',
+//             'Database Systems',
+//             'Design and Analysis of Computer Algorithms',
+//             'Operating Systems',
+//             'Programming Languages',
+//             'Programming for the Web'
+//         ],
+//         iconStyle: { background: 'rgb(255, 218, 185)', color: '#fff' },
+//         contentStyle: { background: 'rgb(255, 218, 185)', color: '#000' },
+//     },
+//     {
+//         date: 'July 2022 - November 2022',
+//         title: 'Web Developer Intern',
+//         subtitle: 'The Grafician, Chennai, India',
+//         details: [
+//             'Played a pivotal role in enhancing website functionality through collaborative brainstorming.',
+//             'Mastered Python and JavaScript, tackling complex challenges and delivering precise solutions.',
+//             'Fostered seamless collaboration between development and design teams.',
+//             'Carried out A/B testing methodologies to refine website features, improving conversion rates by 10%.'
+//         ],
+//         iconStyle: { background: 'rgb(202,183,220)', color: '#fff' },
+//         contentStyle: { background: 'rgb(202,183,220)', color: '#000' },
+//     },
+//     {
+//         date: 'March 2022 – June 2022',
+//         title: 'Software Design Intern',
+//         subtitle: 'Mistral Solutions Private Limited, Bangalore, India',
+//         details: [
+//             'Orchestrated pioneering robotics initiatives with ROS 2 Foxy and Python.',
+//             'Applied advanced machine learning algorithms to enhance autonomous systems\' intelligence.',
+//             'Demonstrated mastery in front-end and back-end development.',
+//             'Led collaborative efforts, driving innovation through effective communication and leadership.'
+//         ],
+//         iconStyle: { background: 'rgb(255, 182, 193)', color: '#fff' },
+//         contentStyle: { background: 'rgb(255, 182, 193)', color: '#000' },
+//     }
+// ];
+
+export const EDUCATION_TIMELINE = [
+    {
+        date: 'May 2018 - May 2022',
+        title: 'Bachelor of Engineering in Electrical and Electronics',
+        subtitle: 'Anna University, India',
+        details: [
+            'Object-Oriented Programming',
+            'Embedded Systems',
+            'Introduction to C Programming',
+            'Introduction to Python Programming'
+        ],
+        iconStyle: { background: 'rgb(255, 182, 193)', color: '#fff' },
+    },
+    {
+        date: 'August 2023 - May 2025',
+        title: 'Master of Science in Computer Science',
+        subtitle: 'Binghamton University, State University of New York',
+        details: [
+            'Introduction to Machine Learning (ML)',
+            'Design Patterns',
+            'Database Systems',
+            'Design and Analysis of Computer Algorithms',
+            'Operating Systems',
+            'Programming Languages',
+            'Programming for the Web'
+        ],
+        iconStyle: { background: 'rgb(255, 218, 185)', color: '#fff' },
+    },
+    {
+        date: 'July 2022 - November 2022',
+        title: 'Web Developer Intern',
+        subtitle: 'The Grafician, Chennai, India',
+        details: [
+            'Played a pivotal role in enhancing website functionality through collaborative brainstorming.',
+            'Mastered Python and JavaScript, tackling complex challenges and delivering precise solutions.',
+            'Fostered seamless collaboration between development and design teams.',
+            'Carried out A/B testing methodologies to refine website features, improving conversion rates by 10%.'
+        ],
+        iconStyle: { background: 'rgb(202,183,220)', color: '#fff' },
+    },
+    {
+        date: 'March 2022 – June 2022',
+        title: 'Software Design Intern',
+        subtitle: 'Mistral Solutions Private Limited, Bangalore, India',
+        details: [
+            'Orchestrated pioneering robotics initiatives with ROS 2 Foxy and Python.',
+            'Applied advanced machine learning algorithms to enhance autonomous systems\' intelligence.',
+            'Demonstrated mastery in front-end and back-end development.',
+            'Led collaborative efforts, driving innovation through effective communication and leadership.'
+        ],
+        iconStyle: { background: 'rgb(255, 182, 193)', color: '#fff' },
+    }
+];
 
