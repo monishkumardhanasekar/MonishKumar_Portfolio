@@ -14,12 +14,12 @@ const Navbar = () => {
         <a href="https://github.com/monishkumardhanasekar" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/karthik_monish_d?igsh=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <a href="https://www.instagram.com/monish_karthik_d/profilecard/?igsh=dTA4NnNvNmRub3k3" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
           <FaInstagram />
         </a>
 
         <div className="border-2 border-gray-700 rounded-lg text-gray-700 hover:text-gray-900 text-xs py-2 px-2">
-          <a href="/MONISH KUMAR DHANASEKAR COLLEGE RESUME NY.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/MONISH KUMAR DHANASEKAR COLLEGE RESUME NY Main .docx.pdf" target="_blank" rel="noopener noreferrer">
             <button className="vvd"><span>My Resume</span></button>
           </a>
         </div>
