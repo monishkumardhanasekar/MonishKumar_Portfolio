@@ -19,7 +19,7 @@ const Navbar = () => {
         </a>
 
         <div className="border-2 border-gray-700 rounded-lg text-gray-700 hover:text-gray-900 text-xs py-2 px-2">
-          <a href="/MONISH KUMAR DHANASEKAR RESUME NY Main .pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Monish_Kumar_Dhanasekar_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button className="vvd"><span>My Resume</span></button>
           </a>
         </div>
